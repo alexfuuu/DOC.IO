@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+.pagewrap {
+  background-color: #fdfafa;
+  margin: 0;
+}
+.pagewrap > div:first-of-type {
+  background: linear-gradient(153deg, rgba(225, 31, 59, 0.65) 0%, rgba(255, 143, 0, 0.65) 100%), url("bg.jpg");
+  background-size: cover;
+  color: white;
+}
+.pagewrap form {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: inset 0 0 2px #fefefe,  0 2px 20px -2px #d3d3d3;
+  padding: 32px 42px 40px 42px;
+}
+.pagewrap form input {
+  border-radius: 0;
+  margin-bottom: 4px;
+}
+
+.btn-primary {
+  background-color: #E1334B;
+  border: 1px solid #e4495f;
+}
+.btn-primary:hover {
+  background-color: #e4495f;
+  border: 1px solid #e85f72;
+}
+.btn-primary:active {
+  background-color: #981628;
+  border: 1px solid #811322;
+}
+
+/*# sourceMappingURL=main.css.map */
